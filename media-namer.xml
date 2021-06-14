@@ -12,7 +12,7 @@
   <Overview>Renames your downloaded media. Movies, series, books and audiobooks. Uses a Web GUI.&#xD;
 Does not delete files.</Overview>
   <Category>Productivity: Tools: MediaApp:Other</Category>
-  <WebUI>3000</WebUI>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/mcoop320/media-namer/raw/master/public/Icon.png</Icon>
   <ExtraParams/>
