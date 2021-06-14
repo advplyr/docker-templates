@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>media-namer</Name>
+  <Repository>mcoop320/media-namer</Repository>
+  <Registry>https://hub.docker.com/r/mcoop320/media-namer/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://hub.docker.com/r/mcoop320/media-namer/</Support>
+  <Project>https://github.com/mcoop320/media-namer</Project>
+  <Overview>Renames your downloaded media. Movies, series, books and audiobooks. Uses a Web GUI.&#xD;
+Does not delete files.</Overview>
+  <Category>Productivity: Tools: MediaApp:Other</Category>
+  <WebUI>3000</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/mcoop320/media-namer/raw/master/public/Icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1623673097</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Renames your downloaded media. Movies, series, books and audiobooks. Uses a Web GUI.&#xD;
+Does not delete files.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort/>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/output</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/media</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>OMDB_API_KEY</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>GBOOKS_API_KEY</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Output Path" Target="/output" Default="" Mode="rw" Description="The final resting place of your media files, e.g. /mnt/user/media" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Download Path" Target="/media" Default="" Mode="rw" Description="Where the media is that you want to rename." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="OMDB Api Key" Target="OMDB_API_KEY" Default="" Mode="" Description="These are free at omdb api site. Required for renaming movies/series." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Google Books Api Key" Target="GBOOKS_API_KEY" Default="" Mode="" Description="Api keys are free under a certain number of requests. Required for books/audiobooks." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Web UI Port" Target="3000" Default="3000" Mode="tcp" Description="Container Port: 3000" Type="Port" Display="always" Required="false" Mask="false"/>
+</Container>
