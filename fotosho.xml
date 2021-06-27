@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>fotosho</Name>
+  <Repository>mcoop320/fotosho</Repository>
+  <Registry>https://hub.docker.com/r/mcoop320/fotosho/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/mcoop320/fotosho/</Support>
+  <Project/>
+  <Overview>   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
+  <Category>MediaApp:Photos MediaServer:Photos</Category>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/mcoop320/fotosho/raw/master/static/Logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1624805841</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>13377</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/data/fotosho</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/photos</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/thumbnails</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Config" Target="/config" Default="/mnt/user/appdata/data" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/data/fotosho</Config>
+  <Config Name="Photos" Target="/photos" Default="" Mode="rw" Description="Container Path: /photos" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Thumbs" Target="/thumbnails" Default="" Mode="rw" Description="Container Path: /thumbnails" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Web Port" Target="80" Default="" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false">13377</Config>
+</Container>
