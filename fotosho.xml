@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/mcoop320/fotosho/</Support>
   <Project/>
-  <Overview>   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
+  <Overview>Host your own web photo gallery to manage your home photos on your own server. Free and open source. Does not require a database. Uses your photo directory (does not copy images).</Overview>
   <Category>MediaApp:Photos MediaServer:Photos</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>
@@ -20,7 +20,7 @@
   <DateInstalled>1624805841</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
+  <Description>Host your own web photo gallery to manage your home photos on your own server. Free and open source. Does not require a database. Uses your photo directory (does not copy images).</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
