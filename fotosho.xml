@@ -50,7 +50,7 @@
   </Data>
   <Environment/>
   <Labels/>
-  <Config Name="Config" Target="/config" Default="/mnt/user/appdata/data" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/data/fotosho</Config>
+  <Config Name="Config" Target="/config" Default="/mnt/user/appdata/data" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/fotosho</Config>
   <Config Name="Photos" Target="/photos" Default="" Mode="rw" Description="Container Path: /photos" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Thumbs" Target="/thumbnails" Default="" Mode="rw" Description="Container Path: /thumbnails" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Web Port" Target="80" Default="" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false">13377</Config>
