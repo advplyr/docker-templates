@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>fotosho</Name>
-  <Repository>mcoop320/fotosho</Repository>
-  <Registry>https://hub.docker.com/r/mcoop320/fotosho/</Registry>
+  <Repository>advplyr/fotosho</Repository>
+  <Registry>https://hub.docker.com/r/advplyr/fotosho/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/mcoop320/fotosho/</Support>
+  <Support>https://hub.docker.com/r/advplyr/fotosho/</Support>
   <Project/>
   <Overview>Host your own web photo gallery to manage your home photos on your own server. Free and open source. Does not require a database. Uses your photo directory (does not copy images).</Overview>
   <Category>MediaApp:Photos MediaServer:Photos</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/mcoop320/fotosho/raw/master/static/Logo.png</Icon>
+  <Icon>https://github.com/advplyr/fotosho/raw/master/static/Logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
