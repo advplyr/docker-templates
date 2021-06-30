@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>media-namer</Name>
-  <Repository>mcoop320/media-namer</Repository>
-  <Registry>https://hub.docker.com/r/mcoop320/media-namer/</Registry>
+  <Repository>advplyr/media-namer</Repository>
+  <Registry>https://hub.docker.com/r/advplyr/media-namer/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
-  <Support>https://hub.docker.com/r/mcoop320/media-namer/</Support>
-  <Project>https://github.com/mcoop320/media-namer</Project>
+  <Support>https://hub.docker.com/r/advplyr/media-namer/</Support>
+  <Project>https://github.com/advplyr/media-namer</Project>
   <Overview>Renames your downloaded media. Movies, series, books and audiobooks. Uses a Web GUI.&#xD;
 Does not delete files.</Overview>
   <Category>Productivity: Tools: MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/mcoop320/media-namer/raw/master/public/Icon.png</Icon>
+  <Icon>https://github.com/advplyr/media-namer/raw/master/public/Icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
