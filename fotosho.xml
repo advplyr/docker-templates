@@ -8,7 +8,7 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/advplyr/fotosho/</Support>
-  <Project/>
+  <Project>https://github.com/advplyr/fotosho</Project>
   <Overview>*BETA* Fotosho is a photo gallery for your home server. Organize your photos into albums internally and view as a slideshow. Free and open source. Does not require a database. Does not move, copy or modify your photos.</Overview>
   <Category>MediaApp:Photos MediaServer:Photos</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
