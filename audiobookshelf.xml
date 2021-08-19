@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/advplyr/audiobookshelf/</Support>
+  <Support>https://forums.unraid.net/topic/112698-support-audiobookshelf/</Support>
   <Project>https://github.com/advplyr/audiobookshelf</Project>
   <Overview>**Early Beta** Audiobook manager and player</Overview>
   <Category>MediaApp:Books MediaServer:Books Status:Beta</Category>
